@@ -1,14 +1,24 @@
-form {
-    width: 300px;
+body{
+  background-image: linear-gradient(to top, black, red);
+  background-repeat: no-repeat;
+}
+
+
+.indice{
+    width: 200px;
     margin: 0 auto;
     text-align: left;
+    padding: 235px;
+    border: solid 1px black;
+
   }
   
   label {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     display: block;
     margin-bottom: 8px;
+    color: white;
   }
   
   input[type="text"], input[type="email"], input[type="password"] {
@@ -29,5 +39,10 @@ form {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
   }
+  .enviar:hover{
+    background-color: #1f8e23;
+  }
+
   
