@@ -1,11 +1,8 @@
-*{
-  margin: 0;
-  padding: 0;
-}
+
 
 body{
   
-  background-image: linear-gradient(to top, black, red);
+  background-image: linear-gradient(to top, rgba(193, 62, 196, 0.714), rgb(25, 135, 143));
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -15,12 +12,10 @@ body{
 }
 
 .let{
- margin: 20px;
- padding: 20px;
+  position: absolute;
+  height: 659px;
   
 }
-
-
 .indice{
     width: 400px;
     margin: 0 auto;
