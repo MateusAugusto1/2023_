@@ -1,5 +1,5 @@
 # 2023_
-Fazer desse ano melhor e buscar me aperfeiçoar.
+Fazer desse ano melhor.
 
 2-Dia
 Bora Mateus
