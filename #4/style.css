@@ -32,7 +32,7 @@ body{
 }
 
 .img-box{
-    background-color:rgb(226, 5, 226);
+    background-color:rgb(197, 42, 197);
     width: 50%;
     display: flex;
     align-items: center;
@@ -46,7 +46,7 @@ body{
 }
 
 .form-box{
-    background-color: rgba(229, 14, 24, 0.4);
+    background-color: rgba(159, 10, 18, 0.4);
     backdrop-filter: blur(40px);
     padding: 30px 40px;
     width: 50%;
@@ -55,11 +55,18 @@ body{
 
 .form-box p{
     font-weight: bold;
-    color: rgb(48, 12, 6);
+    color: rgb(238, 55, 116);
+   
+    
+}
+.form-box p:hover{
+    transform: scale(1.0) rotate(360deg);
+    box-shadow: 0 0 111px rgb(215, 87, 129);
+    cursor: pointer;
 }
 
 .form-box p a{
-    color: rgb(66, 66, 0);
+    color: rgb(110, 110, 19);
     text-decoration: none;
 }
 .form-box form{
@@ -107,4 +114,12 @@ form .input-group button{
     cursor: pointer;
     font-size: 16px;
 
+}
+
+.button_ :hover{
+
+    background-color: rgb(227, 53, 111);
+    transform: scale(1.0) rotate(360deg);
+    box-shadow: 0 0 45px rgb(215, 87, 129);
+    cursor: grab;
 }
