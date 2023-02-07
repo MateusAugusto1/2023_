@@ -2,12 +2,13 @@
 
 body{
   
-  background-image: linear-gradient(to top, rgba(193, 62, 196, 0.714), rgb(25, 135, 143));
+  background-image: linear-gradient(to top, rgba(215, 16, 219, 0.714), rgb(11, 152, 162));
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 
 }
 
@@ -21,6 +22,7 @@ body{
     margin: 0 auto;
     text-align: left;
     padding: 128px;
+   
     
 
   }
