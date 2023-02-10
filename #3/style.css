@@ -1,4 +1,8 @@
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body{
   
@@ -8,13 +12,14 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   
 
 }
 
 .let{
   position: absolute;
-  height: 659px;
+  height: 640px;
   
 }
 .indice{
