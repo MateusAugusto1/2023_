@@ -1,0 +1,79 @@
+:root{
+    --color-dark1: rgb(12,22,22);
+    --color-dark2: rgb(16, 52, 52);
+    --color-dark3: rgb(14, 46, 46);
+    --color-green: rgb(22, 75, 18);
+    --color-green: rgb(12, 99, 32);
+    --color-red : rgb(125, 53, 26);
+    --color-red2: rgb(179, 62, 20);
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: var(--color-dark1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.content--add-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.content-body{
+
+}
+
+#input--new--task, #btn-icon{
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+
+}
+
+#input--new--task{
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+#btn-icon{
+    background-color: var(--color-dark3);
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: -4s;
+}
+
+#btn-icon:hover{
+    background-color: var(--color-dark1);
+}
+
+#to-do-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+
+#to-do-list li{
+    list-style-type: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
